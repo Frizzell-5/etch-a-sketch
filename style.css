@@ -1,0 +1,97 @@
+* 
+{
+  /*background-color: black;*/
+}
+
+html 
+{
+    background-image: url("https://th.bing.com/th/id/R.52c6e2ec04e5c97f8601caa2cd72dc0d?rik=Tv6lil2r9Um16g&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fe7b5p3t.jpg&ehk=AwpYvMumkybQ6FgAINKNJexgH38Znvs6P%2fFINVzPUOk%3d&risl=&pid=ImgRaw&r=0");
+}
+
+h1 
+{
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(93, 40, 40);
+  
+}
+
+#container 
+{
+  display: grid;
+  grid-gap: 0px;
+  grid-template-rows: repeat(var(--grid-rows), 0.4fr);
+  grid-template-columns: repeat(var(--grid-cols), 0.4fr);
+  height: 60vh;   
+  width: 60vh;
+  margin: auto;
+  margin-top: 50px;
+  background-color: rgb(251, 251, 251); 
+}
+
+.grid-item:hover 
+{
+  opacity: 1;
+  cursor: pointer;
+  transition: 2s;
+}
+
+
+.grid-item 
+{
+  padding: 0.2em;
+  text-align: center;
+  height: 100%;
+  width: auto;
+  background-color: white;
+}
+
+#end 
+{
+  border-radius: 10px;
+  height: 65px;
+  font-size: 20px;
+  text-align: center;
+  display:block ;
+  margin: auto;
+  margin-top: 50px;  
+}
+
+#end:hover 
+{
+  background-color: rgb(212, 155, 155);
+  color: white;
+  transition: 0.4s;
+}
+
+#buttons 
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+#buttons button 
+{
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(212, 155, 155);
+  color: white;
+  font-size: 20px;
+  border: none;
+  transition: 0.4s;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.show {
+display: block;
+}
+
+
+
+
